@@ -26,7 +26,7 @@
   <!--link rel="stylesheet" type="text/css" href="styles/inline.css"-->
   <style>
     #headline {
-      padding: 20px 5%; /* from 0.8em */
+      padding: 0.8em;
       color: white;
       font-family: Roboto, sans-serif;
       background-image: url(hero.jpg);
@@ -71,6 +71,31 @@
     }
 
     @media (min-width: 600px) {
+      .container {
+        margin: auto;
+        max-width: 800px;
+      }
+
+      #headline {
+        padding: 20px 5%;
+      }
+
+      #headline #blurb {
+        float: left;
+        width: 50%;
+        font-weight: 200;
+        font-size: 18px;
+        box-sizing: border-box;
+        padding-right: 10px;
+      }
+
+      #headline #register {
+        float: right;
+        padding: 20px;
+        width: 50%;
+        box-sizing: border-box;
+        font-weight: 300;
+      }
 
     }
 
@@ -126,6 +151,7 @@
                placeholder="(555) 555 5555" required>
         <input type="submit" value="Sign up">
       </form>
+      <br>
     </div>
   </div>
 
