@@ -71,26 +71,31 @@
     }
 
     @media (min-width: 600px) {
+      /* // [START container] */
       .container {
         margin: auto;
         max-width: 800px;
       }
+      /* // [END container] */
 
+      /* // [START padding] */
       #headline {
         padding: 20px 5%;
       }
+      /* // [END padding] */
 
+      /* // [START formfloat] */
       #headline #blurb {
         float: left;
-        width: 50%;
         font-weight: 200;
+        width: 50%;
         font-size: 18px;
         box-sizing: border-box;
         padding-right: 10px;
       }
 
       #headline #register {
-        float: right;
+        float:right;
         padding: 20px;
         width: 50%;
         box-sizing: border-box;
@@ -100,6 +105,21 @@
       #headline br {
         clear: both;
       }
+      /* // [END formfloat] */
+
+      /* // [START floatvideo] */
+      #section1 ul {
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        padding-right: 1em;
+      }
+
+      #section1 video {
+        width: 50%;
+        float: right;
+      }
+      /* // [END floatvideo] */
     }
 
   </style>
