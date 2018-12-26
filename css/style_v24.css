@@ -82,7 +82,7 @@ body {font-family: "나눔명조", NanumMyeongjo, "Nanum Myeongjo", "돋움", "�
 .contact li a {display: inline-block; width: 100%; text-align: center;}
 .contact li:first-child .share-icon {border-left: 0;}
 .contact li:first-child img {width: 39%;}
-.contact li:nth-child(2) img {width: 20%;}
+.contact li:nth-child(2) img {width: 39%;}
 .contact li:nth-child(3) img {width: 21%;}
 .contact li:last-child img {width: 25.5%;}
 .share-icon {height: 75px; line-height: 75px; border-left: 1px solid #e7dccf;}
